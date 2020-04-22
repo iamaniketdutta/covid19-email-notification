@@ -16,7 +16,10 @@ cd covid19-email-notification
 npm install
 ```
 
-And update the configuration inside configs/email_notification_app_live.json
+### Update the configuration file/s
+```bash
+It will be inside configs/email_notification_app_live.json
+```
 
 ### Start the application
 ```bash
@@ -31,7 +34,7 @@ npm app.js
 
 ## 🐛 Bugs or Requests
 
-If you encounter any problems feel free to open an [issue](https://github.com/iamaniketdutta/covid19-email-notification/issues/new)on GitHub and I'll look into it. Pull request are also welcome.
+If you encounter any problems feel free to open an [issue](https://github.com/iamaniketdutta/covid19-email-notification/issues/new) on GitHub and I'll look into it. Pull request are also welcome.
 
 ## 🗒️ License
 
