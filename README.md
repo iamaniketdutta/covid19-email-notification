@@ -38,7 +38,7 @@ If you encounter any problems feel free to open an [issue](https://github.com/ia
 
 ## 🗒️ License
 
-**Corona19 Updates (India)** is licensed under `MIT license`.
+**Corona Updates Email notification** is licensed under `MIT license`.
 
 ## ✨ Credits
 * Website from where data is scraped - [Government of India](https://www.mohfw.gov.in/)
