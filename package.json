@@ -1,0 +1,28 @@
+{
+  "name": "covid19-email-notification",
+  "version": "1.0.0",
+  "description": "This is a email notification project which will provides updates about COVID-19 in India.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.3",
+    "cron": "^1.8.2",
+    "ejs": "^3.0.2",
+    "express": "^4.16.4",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^2.0.3",
+    "request": "^2.88.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

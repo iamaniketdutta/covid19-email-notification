@@ -1,0 +1,19 @@
+{
+  "success": 200,
+  "unknown_error":101,
+  "invalidCredential": 102,
+  "notCreated":103,
+  "notUpdated":104,
+  "noRecord":105,
+  "alreadyExist": 106,
+  "invalidType":107,
+  "unauthorize" :401,
+  "notProceed":108,
+  "limitExceeded": 109,
+  "OTPVerification": 301,
+  "signInOTPVerification": 259,
+  "createOTP": 300,
+  "alreadyVerifiedOTP": 320,
+  "otpExpired": 330,
+  "InvalidOTP": 404
+}

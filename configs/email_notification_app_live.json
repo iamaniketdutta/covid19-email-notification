@@ -1,0 +1,10 @@
+{
+  "serverPort": "2000",
+  "dbUrl": "mongodb://localhost:27017/covid19",
+  "url": "https://www.mohfw.gov.in/",
+  "cronTimeZoneName": "Asia/Kolkata",
+  "sendEmailCampaignCronTime": "0 0 10,19 * * *",
+  "emailAccountName": "YOUR EMAIL",
+  "emailAccountPassword": "YOUR EMAIL PASSWORD"
+}
+

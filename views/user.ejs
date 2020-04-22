@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('head'); -%>
+</head>
+<style>
+    .marquee {
+        margin: 0 auto;
+        width: 600px;
+        height: 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .marquee:before, .marquee:after {
+        position: absolute;
+        top: 0;
+        width: 50px;
+        height: 30px;
+        content: "";
+        z-index: 1;
+    }
+    .marquee:before {
+        left: 0;
+    }
+    .marquee:after {
+        right: 0;
+    }
+    .marquee__content {
+        width: 300%;
+        display: flex;
+        line-height: 30px;
+        animation: marquee 8s linear infinite;
+    }
+    .marquee__content:hover {
+        animation-play-state: paused;
+    }
+    .list-inline {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        /* reset list */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    @keyframes marquee {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-66.6%);
+        }
+    }
+</style>
+<body class="container">
+
+<header>
+    <%- include('header'); -%>
+</header>
+
+<main>
+    <div class="jumbotron">
+        <% if (message !== '') { %>
+        <h5 class="alert alert-<%= messageClassType %>"><%= message %></h5>
+        <%} %>
+        <form method="post" action="/subscription">
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" name="emailId" placeholder="Enter email"
+                       value="<%= emailId %>"/>
+                <span class="form-text text-muted">
+                It is advised not to give any Official Email Id</span>
+            </div>
+            <div class="form-group">
+                <% if (submitType === 'Subscribe') { %>
+                <button type="submit"
+                        name="submit"
+                        class="btn btn-<%= submitClassType %> btn-block"
+                        value="Subscribe"
+                >Submit</button>
+                    <%} %>
+
+                    <% if (submitType === 'Unsubscribe') { %>
+                        <button type="submit"
+                                name="submit"
+                                class="btn btn-success btn-block"
+                                value="Unsubscribe"
+                        >Yes</button>
+
+                        <button type="submit"
+                                name="submit"
+                                class="btn btn-danger btn-block"
+                                value="default"
+                        >No</button>
+                    <%} %>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <%- include('footer'); -%>
+</footer>
+
+</body>
+</html>
