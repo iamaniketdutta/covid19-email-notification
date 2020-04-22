@@ -23,7 +23,7 @@ It will be inside configs/email_notification_app_live.json
 
 ### Start the application
 ```bash
-node app.js
+npm start
 ```
 
 ## 💵 Support
