@@ -41,7 +41,7 @@ If you encounter any problems feel free to open an [issue](https://github.com/ia
 **Corona Updates Email notification** is licensed under `MIT license`.
 
 ## ✨ Credits
-* Website from where data is scraped - [Government of India](https://www.mohfw.gov.in/)
+* Website from where data is scraped - [Government of India](https://www.mohfw.gov.in/), [Covid19 India](https://api.covid19india.org)
 
 ## 👦🏼 Find me here
 * [Linkedin](https://www.linkedin.com/in/anik1505)
