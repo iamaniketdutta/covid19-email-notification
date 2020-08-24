@@ -58,7 +58,7 @@ const emailTemplateBodyEnding = '</table>\n' +
     '  <div>\n' +
     '  <div class="text-end">\n' +
     '  @Curated by \n' +
-    '  <a style="color: coral;" target="__blank" title="Open my LinkedIn" href="https://www.linkedin.com/in/anik1505/">Aniket Dutta</a>\n' +
+    '  <a style="color: coral;" target="__blank" title="Open my LinkedIn" href="https://www.linkedin.com/in/iamaniketdutta/">Aniket Dutta</a>\n' +
     '  </div>\n' +
     ' \n' +
     '  </div>\n' +
