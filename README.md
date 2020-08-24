@@ -44,5 +44,5 @@ If you encounter any problems feel free to open an [issue](https://github.com/ia
 * Website from where data is scraped - [Government of India](https://www.mohfw.gov.in/), [Covid19 India](https://api.covid19india.org)
 
 ## 👦🏼 Find me here
-* [Linkedin](https://www.linkedin.com/in/anik1505)
+* [Linkedin](https://www.linkedin.com/in/iamaniketdutta)
 * [Nyoboo](https://nyoboo.com/profiles/aniket-dutta)
